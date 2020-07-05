@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('background.jpg');
+        }
+    </style>
+    <script src="Scripts/asgn2.js" defer></script>
+</head>
+<body class="theme-off">
+    <header>
+        <h1>Welcome Travaller</h1>
+        <h3 id="theme-switcher" class="theme-off" onclick="toggleLight(this)">
+            <i class="light-bulb"></i>
+        </h3>
+    </header>
+    <main id="spaceship-power">
+        <div class="mars-img">
+            <img id="mars" src="mars.png" width="512" height="512"/>
+        </div>
+        <div class="theme-off time">
+            <span id="mars-time-text">Mars time</span>
+            <span id="mars-clock">
+            </span>
+        </div>
+        <div class="theme-off time">
+            <span id="time-text">Current time is</span>
+            <span id="clock">
+            </span>
+            <span id="month-text"></span>
+            <span id="day">
+            </span>
+        </div>
+    </main>
+    <div id="spaceship-power-message" onclick="openSpaceship();">
+        TOUCH TO OPEN SPACESHIP
+    </div>
+</body>
+</html>
